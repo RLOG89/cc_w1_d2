@@ -82,14 +82,16 @@ class Functions_Practice < MiniTest::Test
 
   end
 
-#   #You can add your own converters
-#   def test_fahrenheit_to_celsius()
+  #You can add your own converters
+  def test_fahrenheit_to_celsius()
+    celsius_result = fahrenheit_to_celsius(100)
+    celsius_result = celsius_result.round(1)
+    assert_equal(37, celsius_result)
+  end
 
-#   end
+  # def test_miles_to_kilometres
 
-#   def test_miles_to_kilometres
-
-#   end
+  # end
 
 
     end
