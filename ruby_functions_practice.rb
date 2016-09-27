@@ -70,6 +70,9 @@ def volume_of_cube( num_1, num_2 )
   return( 3 ** 3 )
 end
 
+def volume_of_sphere( radius )
+  return ((4/3.to_f) * Math::PI * (radius ** 3))
+end
 
 
 
