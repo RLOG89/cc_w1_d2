@@ -3,19 +3,19 @@ def return_10()
 end
 
 def add( num_1, num_2 )
-  return ( 1 + 2 )
+  return ( num_1 + num_2 )
 end
 
 def subtract( num_1, num_2 )
-  return ( 10 - 5 )
+  return ( num_1 - num_2 )
 end
 
 def multiply( num_1, num_2 )
-  return ( 4 * 2 )
+  return ( num_1 * num_2 )
 end
 
 def divide( num_1, num_2 )
-  return ( 10 / 2 )
+  return ( num_1 / num_2 )
 end
 
 def length_of_string( str )
